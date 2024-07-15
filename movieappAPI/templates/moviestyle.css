@@ -1,0 +1,49 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.movie-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 10px;
+}
+
+.movie{
+margin: 10px;
+border: 1px solid grey;
+border-radius: 5px;
+width: 180px;
+text-align: center;
+}
+
+.movie-image{
+height: 150px;
+object-fit: cover;
+border-radius: 5px 5px 0 0;
+}
+
+.movie-name{
+padding: 10px;
+background-color: aqua;
+font-weight: bold;
+}
+
+.book-button{
+display: block;
+margin: 10px auto;
+padding: 10px 20px;
+background-color: bisque;
+color: black;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+cursor: pointer;
+}
